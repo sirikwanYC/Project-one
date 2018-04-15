@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Athiti:500');
 
-body, .body-before {
+body,
+.body-before {
   width: 100%;
   height: auto;
   position: sticky;
@@ -48,22 +49,38 @@ body, .body-before {
   margin-top: 30px;
 }
 
-.chapter-2-left a:link, .chapter-3-right a:link, .chapter-3-left a:link, .contact a:link, .footer-nav a:link {
+.chapter-2-left a:link,
+.chapter-3-right a:link,
+.chapter-3-left a:link,
+.contact a:link,
+.footer-nav a:link {
   text-decoration: none;
   color: #ffffff;
 }
 
-.chapter-2-left a:visited, .chapter-3-right a:visited, .chapter-3-left a:visited, .contact a:visited, .footer-nav a:visited {
+.chapter-2-left a:visited,
+.chapter-3-right a:visited,
+.chapter-3-left a:visited,
+.contact a:visited,
+.footer-nav a:visited {
   text-decoration: none;
   color: #ffffff;
 }
 
-.chapter-2-left a:hover, .chapter-3-right a:hover, .chapter-3-left a:hover, .contact a:hover, .footer-nav a:hover {
+.chapter-2-left a:hover,
+.chapter-3-right a:hover,
+.chapter-3-left a:hover,
+.contact a:hover,
+.footer-nav a:hover {
   text-decoration: underline;
   color: #ffffff;
 }
 
-.chapter-2-left a:active, .chapter-3-right a:active, .chapter-3-left a:active, .contact a:active, .footer-nav a:active {
+.chapter-2-left a:active,
+.chapter-3-right a:active,
+.chapter-3-left a:active,
+.contact a:active,
+.footer-nav a:active {
   text-decoration: underline;
   color: #ffffff;
 }
@@ -82,13 +99,16 @@ body, .body-before {
   display: flex;
 }
 
-.chapter-3-right img, .chapter-3-right h3, .chapter-3-right p {
+.chapter-3-right img,
+.chapter-3-right h3,
+.chapter-3-right p {
   display: flex;
   margin-top: -275px;
   margin-left: 540px;
 }
 
-.chapter-3-right h3, .chapter-3-right p {
+.chapter-3-right h3,
+.chapter-3-right p {
   margin-left: 740px;
   margin-top: -250px;
 }
@@ -138,7 +158,8 @@ body, .body-before {
   font-size: 15px;
 }
 
-.border-chapter4-one, .border-chapter4-two {
+.border-chapter4-one,
+.border-chapter4-two {
   width: 280px;
   height: 522px;
   border: 0.5px solid #edefed;
@@ -148,12 +169,14 @@ body, .body-before {
   margin-top: 10px;
 }
 
-.border-chapter4-one img, .border-chapter4-two img {
+.border-chapter4-one img,
+.border-chapter4-two img {
   position: absolute;
   width: 280px;
 }
 
-.border-chapter4-one a, .border-chapter4-two a {
+.border-chapter4-one a,
+.border-chapter4-two a {
   position: absolute;
   padding-left: 20px;
   padding-right: 700px;
@@ -165,7 +188,8 @@ body, .body-before {
   padding-right: 380px;
 }
 
-.border-chapter4-one p, .border-chapter4-two p {
+.border-chapter4-one p,
+.border-chapter4-two p {
   position: absolute;
   color: #a0a0a0;
   margin-top: 320px;
@@ -173,7 +197,8 @@ body, .body-before {
   font-size: 13px;
 }
 
-.border-chapter4-one p:nth-of-type(2), .border-chapter4-two p:nth-of-type(2) {
+.border-chapter4-one p:nth-of-type(2),
+.border-chapter4-two p:nth-of-type(2) {
   margin-top: 390px;
   padding-right: 700px;
   font-size: 15px;
@@ -183,7 +208,8 @@ body, .body-before {
   padding-right: 380px;
 }
 
-.border-chapter4-one a:nth-of-type(2), .border-chapter4-two a:nth-of-type(2) {
+.border-chapter4-one a:nth-of-type(2),
+.border-chapter4-two a:nth-of-type(2) {
   margin-top: 350px;
   font-size: 12px;
   background-color: #efefef;
@@ -194,7 +220,8 @@ body, .body-before {
   padding: 1px 3px;
 }
 
-.border-chapter4-one button, .border-chapter4-two button {
+.border-chapter4-one button,
+.border-chapter4-two button {
   position: absolute;
   z-index: 1;
   margin-left: 10px;
@@ -231,6 +258,10 @@ body, .body-before {
 
 .chapter-5 img {
   margin-left: 40px;
+}
+
+.chapter-5 a {
+  text-decoration: none;
 }
 
 footer .body-before {
@@ -352,23 +383,35 @@ div .flex-nav {
   font-weight: 100;
 }
 
-.flex-nav a:link, .border-chapter4-one a:link, .border-chapter4-two a:link, .chapter-4-all-news a:link {
+.flex-nav a:link,
+.border-chapter4-one a:link,
+.border-chapter4-two a:link,
+.chapter-4-all-news a:link {
   text-decoration: none;
   color: #274583;
 }
 
-.flex-nav a:visited, .border-chapter4-one a:visited, .border-chapter4-two a:visited, .chapter-4-all-news a:visited {
+.flex-nav a:visited,
+.border-chapter4-one a:visited,
+.border-chapter4-two a:visited,
+.chapter-4-all-news a:visited {
   text-decoration: none;
   color: #3d78ad;
 }
 
-.flex-nav a:hover, .border-chapter4-one a:hover, .border-chapter4-two a:hover, .chapter-4-all-news a:hover {
+.flex-nav a:hover,
+.border-chapter4-one a:hover,
+.border-chapter4-two a:hover,
+.chapter-4-all-news a:hover {
   text-decoration: underline;
   color: #274583;
   font-weight: 100;
 }
 
-.flex-nav a:active, .border-chapter4-one a:active, .border-chapter4-two a:active, .chapter-4-all-news a:active {
+.flex-nav a:active,
+.border-chapter4-one a:active,
+.border-chapter4-two a:active,
+.chapter-4-all-news a:active {
   text-decoration: underline;
   color: inherit;
 }
@@ -379,7 +422,8 @@ div .flex-nav {
   font-size: 20px;
 }
 
-.donate a:link, .donate a:visited {
+.donate a:link,
+.donate a:visited {
   background-color: #8bd350;
   text-align: center;
   text-decoration: none;
@@ -392,7 +436,8 @@ div .flex-nav {
   color: #264480;
 }
 
-.donate a:hover, .donate a:active {
+.donate a:hover,
+.donate a:active {
   background-color: #8bd350;
 }
 
