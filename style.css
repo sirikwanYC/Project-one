@@ -386,7 +386,8 @@ div .flex-nav {
 .flex-nav a:link,
 .border-chapter4-one a:link,
 .border-chapter4-two a:link,
-.chapter-4-all-news a:link {
+.chapter-4-all-news a:link,
+.nav-head a:link {
   text-decoration: none;
   color: #274583;
 }
@@ -394,7 +395,8 @@ div .flex-nav {
 .flex-nav a:visited,
 .border-chapter4-one a:visited,
 .border-chapter4-two a:visited,
-.chapter-4-all-news a:visited {
+.chapter-4-all-news a:visited,
+.nav-head a:visited {
   text-decoration: none;
   color: #3d78ad;
 }
@@ -402,7 +404,8 @@ div .flex-nav {
 .flex-nav a:hover,
 .border-chapter4-one a:hover,
 .border-chapter4-two a:hover,
-.chapter-4-all-news a:hover {
+.chapter-4-all-news a:hover,
+.nav-head a:hover {
   text-decoration: underline;
   color: #274583;
   font-weight: 100;
@@ -411,7 +414,8 @@ div .flex-nav {
 .flex-nav a:active,
 .border-chapter4-one a:active,
 .border-chapter4-two a:active,
-.chapter-4-all-news a:active {
+.chapter-4-all-news a:active,
+.nav-head a:active {
   text-decoration: underline;
   color: inherit;
 }
@@ -511,7 +515,7 @@ div .flex-nav {
 }
 
 .nav-button-education a {
-  margin-left: 500px;
+  margin-left: 450px;
   position: absolute;
   margin-top: 10px;
 }
@@ -533,4 +537,23 @@ div .flex-nav {
 .nav-button-education a:active {
   background-color: #ff9933;
   text-decoration: underline;
+}
+
+.nav-head a {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.nav-head a:nth-of-type(2) {
+  margin-left: 660px;
+}
+
+.nav-head a:nth-of-type(3) {
+  margin-left: 780px;
+}
+
+.nav-head a:nth-of-type(4) {
+  margin-left: 894px;
 }
