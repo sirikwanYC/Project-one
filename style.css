@@ -85,12 +85,6 @@ body,
   color: #ffffff;
 }
 
-.thankyou-chance img {
-  margin-top: 140px;
-  margin-left: 578px;
-  position: absolute;
-}
-
 .chapter-3 {
   margin: 70px 0px;
 }
@@ -312,11 +306,11 @@ footer .body-before {
 }
 
 .footer-nav a:nth-of-type(7) {
-  padding-left: 30px;
+  padding-left: 35px;
 }
 
 .footer-nav a:nth-of-type(8) {
-  padding-left: 13px;
+  padding-left: 15px;
 }
 
 .footer-nav {
@@ -342,10 +336,16 @@ footer .body-before {
 }
 
 .thankyou-chance p {
-  margin-left: 500px;
+  margin-left: 510px;
   margin-top: 80px;
   position: absolute;
   font-size: 36px;
+}
+
+.thankyou-chance img {
+  margin-top: 140px;
+  margin-left: 585px;
+  position: absolute;
 }
 
 .vedioplayer {
@@ -428,8 +428,8 @@ div .flex-nav {
   text-align: center;
   text-decoration: none;
   border: 0px solid;
-  border-radius: 10%;
-  padding: 1px 3px;
+  border-radius: 5%;
+  padding: 1px 6px;
   margin-top: 105px;
   font-weight: 900;
   box-shadow: 1px 1px 1px #274583;
@@ -504,4 +504,33 @@ div .flex-nav {
 
 .font-weight400 {
   font-weight: 400;
+}
+
+.footer-pattern2 img {
+  margin-left: -15px;
+}
+
+.nav-button-education a {
+  margin-left: 500px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.nav-button-education a:link,
+.nav-button-education a:visited {
+  background-color: #ff9933;
+  text-align: center;
+  text-decoration: none;
+  border: 0px solid;
+  border-radius: 5%;
+  font-weight: 900;
+  padding: 2px 3px;
+  box-shadow: 1px 1px 1px #274583;
+  color: #264480;
+}
+
+.nav-button-education a:hover,
+.nav-button-education a:active {
+  background-color: #ff9933;
+  text-decoration: underline;
 }
