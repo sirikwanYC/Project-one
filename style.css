@@ -210,7 +210,7 @@ body,
   text-align: center;
   text-decoration: none;
   margin-left: 20px;
-  border-radius: 15%;
+  border-radius: 10%;
   padding: 1px 3px;
 }
 
@@ -528,7 +528,7 @@ div .flex-nav {
   border: 0px solid;
   border-radius: 5%;
   font-weight: 900;
-  padding: 2px 3px;
+  padding: 2px 5px;
   box-shadow: 1px 1px 1px #274583;
   color: #264480;
 }
@@ -556,4 +556,18 @@ div .flex-nav {
 
 .nav-head a:nth-of-type(4) {
   margin-left: 894px;
+}
+
+.language img {
+  margin-top: 60px;
+}
+
+.thai img {
+  position: absolute;
+  margin-left: 920px;
+}
+
+.eng img {
+  position: absolute;
+  margin-left: 885px;
 }
