@@ -62,3 +62,16 @@ td {
   font-size: 0.923em; /*em เป็น relative ที่จะขึ้นอยู่กับ parent element*/
   line-height: 1.538em; /*ระยะห่างระหว่างแนวตั้ง */
 }
+.second-center{
+  width: 450px;
+  padding-left: 100px;
+}
+.first-center {
+  width: 160px;
+  height: 161px;
+  padding-right: 60px;
+}
+.third-center{
+  width: 450px;
+  padding-left: 100px;
+}

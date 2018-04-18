@@ -389,7 +389,7 @@ div .flex-nav {
 .chapter-4-all-news a:link,
 .nav-head a:link,
 .mg-tophome a:link,
-.floating-box a:link  {
+.floating-box a:link {
   text-decoration: none;
   color: #274583;
 }
@@ -400,7 +400,7 @@ div .flex-nav {
 .chapter-4-all-news a:visited,
 .nav-head a:visited,
 .mg-tophome a:visited,
-.floating-box a:visited  {
+.floating-box a:visited {
   text-decoration: none;
   color: #3d78ad;
 }
@@ -411,7 +411,7 @@ div .flex-nav {
 .chapter-4-all-news a:hover,
 .nav-head a:hover,
 .mg-tophome a:hover,
-.floating-box a:hover  {
+.floating-box a:hover {
   text-decoration: underline;
   color: #274583;
   font-weight: 100;
@@ -440,7 +440,7 @@ div .flex-nav {
   text-align: center;
   text-decoration: none;
   border: 0px solid;
-  border-radius: 5%;
+  border-radius: 7%;
   padding: 1px 6px;
   margin-top: 105px;
   font-weight: 900;
@@ -535,7 +535,7 @@ div .flex-nav {
   text-align: center;
   text-decoration: none;
   border: 0px solid;
-  border-radius: 5%;
+  border-radius: 7%;
   font-weight: 900;
   padding: 2px 5px;
   box-shadow: 1px 1px 1px #274583;
