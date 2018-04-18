@@ -512,6 +512,7 @@ div .flex-nav {
 
 .footer-pattern2 img {
   margin-left: -15px;
+  overflow: hidden;
 }
 
 .nav-button-education a {
