@@ -12,14 +12,6 @@
 .mg-left{
   display: flex;
   width: 1000px;
-  
-}
-.footer-img{
-  width: auto;
-  height: 300px;
-  background-image: url("img/footer-pattern2.png");
-  background-size: cover;
-  padding-bottom: 150px;
 }
 .mg-leftbox{
   margin: 20px 10px 15px;
@@ -45,99 +37,76 @@
   background-color: #e4f5fd;
 
 }
-.img-one{
-  background-image: url("img/A1.jpeg");
+.img-wigth-height{
   width: 100px;
   height: 100px;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
 }
+
 .clr-pic{
   border-radius: 50%;
 }
-
-.img-two{
-  background-image: url("img/A2.png");
-  width: 100px;
-  height: 100px;
-  position: absolute;
+.img-mg-left-top{
   margin-left: 10px;
   margin-top: 10px;
+}
+.img-one{
+  background-image: url("img/A1.jpeg");
+  position: absolute;
+
+  
+}
+.img-two{
+  background-image: url("img/A2.png");
+  position: absolute;
 }
 
 .img-three{
   background-image: url("img/A3.jpg");
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
 }
 .img-four{
   background-image: url("img/A4.jpeg");
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
 } 
 .img-oneb1{
   background-image: url("img/b1.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
+  
 }
 .img-oneb2{
   background-image: url("img/b2.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
+ 
 }
 .img-oneb3{
   background-image: url("img/b3.jpg");
   background-size: cover;
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
+ 
 }
 .img-oneb4{
   background-image: url("img/b4.jpg");
   background-size: cover;
-  width: 100px;
-  height: 100px;
   position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
+ 
 }
-.mg-top{
-  margin-top: 50px;
 
-}
-.mg-box img{
+.mg-box img{  /*กรอบ*/
   margin-left: -110px;
   width: 460px;
   margin-top: 0px;
 }
 
-.cloud-img img{  
+.cloud-img img{  /*ก้อนเมฆ*/
   width: 1200px;
   margin-top: 135px;
   margin-left: -1115px;
   position: absolute;
   z-index: -1;
 }
-.student-img img {
+.student-img img { /*นักเรียน*/
   width: 960px;
 }
 a{
@@ -164,13 +133,10 @@ a{
 p{
   color: black;
 }
-.mg-leftdiv p {
+.mg-leftdiv p { /*จัดข้อความในกล่อง*/
   margin: 5px 0px;
 }
-.mg-fontleft{
-  margin-left: 300px;
-  margin-top: 0px;
-}
+
 .font-colorfont{
   color: #999;
 }

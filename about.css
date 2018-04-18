@@ -2,11 +2,6 @@
 .distance{
   padding: 50px 0px 0px 0px;
 }
-h1,h2, h3, h4, h5{ 
-	line-height: 1.1em; 
-	margin-bottom: 10px;
-	font-weight: 100;
-}
 h1{
   font-size: 40px;
 }
@@ -24,17 +19,16 @@ h2.blue{
 }
 h3{
   font-size: 28px;
-  line-height: 1.5em; 
   text-align: center;
 }
 h4{
 	font-size: 24px;
 }
 .photo{
-width: 373px; 
-height: 650px; 
-float: right; 
-margin: 0px 0px 0px 50px;
+  width: 373px; 
+  height: 650px; 
+  float: right; 
+  margin: 0px 0px 0px 50px;
 }
 .first-row {
   width: 160px;
