@@ -6,7 +6,7 @@
   float: left;
   width: 440px;
   height: 210px;
-  background-image: url("/Users/thitaya/eiei/border.png ")no-repeat left bottom;
+  background-image: url("img/border.png ")no-repeat left bottom; 
   box-shadow: 1px 1px 2px 1px #efefef;
 }
 .mg-left{
@@ -17,7 +17,7 @@
 .footer-img{
   width: auto;
   height: 300px;
-  background-image: url("/Users/thitaya/Desktop/student/footer-pattern2.png");
+  background-image: url("img/footer-pattern2.png");
   background-size: cover;
   padding-bottom: 150px;
 }
@@ -46,21 +46,19 @@
 
 }
 .img-one{
-  background-image: url("/Users/thitaya/Desktop/web/A1.jpeg");
-  border-radius: 50%;
-  background-repeat: no-repeat; 
+  background-image: url("img/A1.jpeg");
   width: 100px;
   height: 100px;
   position: absolute;
   margin-left: 10px;
   margin-top: 10px;
 }
+.clr-pic{
+  border-radius: 50%;
+}
 
 .img-two{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/A2.png");
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background-image: url("img/A2.png");
   width: 100px;
   height: 100px;
   position: absolute;
@@ -69,10 +67,7 @@
 }
 
 .img-three{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/A3.jpg");
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background-image: url("img/A3.jpg");
   width: 100px;
   height: 100px;
   position: absolute;
@@ -80,10 +75,7 @@
   margin-top: 10px;
 }
 .img-four{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/A4.jpeg");
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background-image: url("img/A4.jpeg");
   width: 100px;
   height: 100px;
   position: absolute;
@@ -91,8 +83,7 @@
   margin-top: 10px;
 } 
 .img-oneb1{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/b1.jpg");
-  border-radius: 50%;
+  background-image: url("img/b1.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
   width: 100px;
@@ -102,8 +93,7 @@
   margin-top: 10px;
 }
 .img-oneb2{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/b2.jpg");
-  border-radius: 50%;
+  background-image: url("img/b2.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
   width: 100px;
@@ -113,10 +103,8 @@
   margin-top: 10px;
 }
 .img-oneb3{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/b3.jpg");
-  border-radius: 50%;
+  background-image: url("img/b3.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
   width: 100px;
   height: 100px;
   position: absolute;
@@ -124,10 +112,8 @@
   margin-top: 10px;
 }
 .img-oneb4{
-  background-image: url("/Users/thitaya/Desktop/Project-one/img/b4.jpg");
-  border-radius: 50%;
+  background-image: url("img/b4.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
   width: 100px;
   height: 100px;
   position: absolute;
@@ -144,7 +130,7 @@
   margin-top: 0px;
 }
 
-.cloud-img img{
+.cloud-img img{  
   width: 1200px;
   margin-top: 135px;
   margin-left: -1115px;
@@ -196,6 +182,6 @@ p{
   margin-left: 850px;
 }
 .margin-topbox{
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
