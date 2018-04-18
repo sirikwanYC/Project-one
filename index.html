@@ -44,9 +44,11 @@
                     </div>
                 </div>
             </section>
-            <a href="index.html"><div class="flex-nav width-119">
-               <img src="img/logo.jpg"/>
-            </div></a>
+            <a href="index.html">
+                <div class="flex-nav width-119">
+                    <img src="img/logo.jpg"/>
+                </div>
+            </a>
             <div class="flex-nav">
                 <a href="index.html">
                     หน้าแรก
@@ -228,13 +230,13 @@
                 </section>
             </div>
         </div>
-        <div class="body-before background-colorwhite">
+        <div class="body-before background-colorwhite min-width960">
             <div class="footer-pattern2">
                 <img src="img/footer-pattern2.png"/>
             </div>
         </div>
-        <div class="body-before background-colorgray">
-            <div class="body-after background-colorgray">
+        <div class="body-before background-colorgray min-width960">
+            <div class="body-after background-colorgray min-width960">
                 <section class="chapter-5">
                     <h2 class="font-colorblue">
                         ร่วมให้โอกาสได้หลายวีธี
@@ -258,18 +260,18 @@
             </div>
         </div>
         <footer>
-            <div class="body-before background-colorblue">
-                <div class="body-after background-colorblue">
+            <div class="body-before background-colorblue min-width960">
+                <div class="body-after background-colorblue min-width960">
                     <section class="contact font-size13">
                         <img src="img/footer-logo_0.png"/>
                         <a href="www.yuvabadhanafoundation.org">
                             www.yuvabadhanafoundation.org
                         </a>
                         <a href="">
-                            e-mail : ybf@ybf.premier.co.th
+                            e-mail: ybf@ybf.premier.co.th
                         </a>
                         <a href="">
-                            โทร : 02 301 1093-5
+                            โทร:02 301 1093-5
                         </a>
                         <div class="facebook">
                             <img src="img/ic-fb.png"/>
@@ -333,18 +335,19 @@
     </body>
     <script>
         // Load the IFrame Player API code asynchronously.
-        var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        var player;
-            function onYouTubePlayerAPIReady() {
-                player = new YT.Player('ytplayer', {
-                height: '350',
-                width: '100%',
-                videoId: '2JvwJmqW-Z8'
-                });
-            }
+var tag = document.createElement('script');
+tag.src ="https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer' {
+        height: '350', width:'100%', videoId:'2JvwJmqW-Z8'
+    }
+
+    );
+}
     </script>
     <script crossorigin="anonymous" defer="" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" src="https://use.fontawesome.com/releases/v5.0.10/js/all.js">
     </script>
