@@ -258,6 +258,10 @@ body,
   text-decoration: none;
 }
 
+.chapter-5 a:hover {
+  filter: opacity(70%);
+}
+
 footer .body-before {
   height: 261px;
 }

@@ -6,7 +6,7 @@ h1{
   font-size: 40px;
 }
 h2.text{
-  font-size: 36px;  
+  font-size: 28px;  
   width: 960px;
 	margin: 0 auto;
   padding: 50px 0px 0px 0px;
@@ -18,7 +18,7 @@ h2.blue{
   margin-bottom: 30px;
 }
 h3{
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
 }
 h4{
@@ -33,11 +33,15 @@ h4{
 .first-row {
   width: 160px;
   height: 161px;
-  padding-right: 40px;
+  padding-right: 50px;
 }
 .second-row {
   width: 450px;
-  padding-right: 40px;
+  padding-right: 50px;
+}
+.third-row{
+  width: 450px;
+  padding-right: 50px;
 }
 td {
   padding-bottom: 50px;
@@ -56,16 +60,13 @@ td {
   font-size: 0.923em; /*em เป็น relative ที่จะขึ้นอยู่กับ parent element*/
   line-height: 1.538em; /*ระยะห่างระหว่างแนวตั้ง */
 }
-.second-center{
-  width: 450px;
-  padding-left: 100px;
-}
 .first-center {
-  width: 160px;
-  height: 161px;
-  padding-right: 60px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  vertical-align: top;
+
 }
-.third-center{
-  width: 450px;
-  padding-left: 100px;
+.table{
+  margin: auto;
 }
