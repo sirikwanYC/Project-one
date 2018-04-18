@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti:500');
+.distance{
+  padding: 50px 0px 0px 0px;
+}
+h1,h2, h3, h4, h5{ 
+	line-height: 1.1em; 
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+h1{
+  font-size: 40px;
+}
+h2.text{
+  font-size: 36px;  
+  width: 960px;
+	margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+h2.blue{
+  font-size: 34px;
+  color: #264480;
+  margin-bottom: 30px;
+}
+h3{
+  font-size: 28px;
+  line-height: 1.5em; 
+  text-align: center;
+}
+h4{
+	font-size: 24px;
+}
+.photo{
+width: 373px; 
+height: 650px; 
+float: right; 
+margin: 0px 0px 0px 50px;
+}
+.first-row {
+  width: 160px;
+  height: 161px;
+  padding-right: 40px;
+}
+.second-row {
+  width: 450px;
+  padding-right: 40px;
+}
+td {
+  padding-bottom: 50px;
+  margin: 0;
+  padding: 0.375em 0.5em;
+}
+.img_photos{
+  width: 960px; 
+  height: 40px; 
+}
+.img_pho{
+  width: 135px; 
+  height: 134px;
+}
+.font_below{
+  font-size: 0.923em; /*em เป็น relative ที่จะขึ้นอยู่กับ parent element*/
+  line-height: 1.538em; /*ระยะห่างระหว่างแนวตั้ง */
+}
