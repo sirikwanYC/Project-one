@@ -1,5 +1,5 @@
 .body-before div:nth-of-type(2) {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .floating-box {
   padding: 10px;
@@ -8,8 +8,6 @@
   height: 210px;
   background-image: url("/Users/thitaya/eiei/border.png ")no-repeat left bottom;
   box-shadow: 1px 1px 2px 1px #efefef;
-
-  
 }
 .mg-left{
   display: flex;
@@ -24,7 +22,7 @@
   padding-bottom: 150px;
 }
 .mg-leftbox{
-  margin: 10px 10px 30px;
+  margin: 20px 10px 30px;
 }
 .mg-leftdiv{
   margin-left: 30px;
@@ -35,9 +33,6 @@
 }
 .font-size{
   font-size: 30px;
-}
-.font-left{
-  
 }
 .padding-box{
   padding: 30px;
@@ -53,7 +48,6 @@
 .img-one{
   background-image: url("/Users/thitaya/Desktop/web/A1.jpeg");
   border-radius: 50%;
-  background-size: cover;
   background-repeat: no-repeat; 
   width: 100px;
   height: 100px;
@@ -151,7 +145,7 @@
 }
 
 .cloud-img img{
-  width: 1270px;
+  width: 1200px;
   margin-top: 135px;
   margin-left: -1115px;
   position: absolute;
@@ -198,7 +192,8 @@ p{
   font-size: 20px;
 }
  .mgright-font{
-  margin-left: 800px;
+  margin-top: 10px;
+  margin-left: 850px;
 }
 .margin-topbox{
   margin-top: 100px;
