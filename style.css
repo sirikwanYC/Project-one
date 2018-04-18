@@ -387,7 +387,9 @@ div .flex-nav {
 .border-chapter4-one a:link,
 .border-chapter4-two a:link,
 .chapter-4-all-news a:link,
-.nav-head a:link {
+.nav-head a:link,
+.mg-tophome a:link,
+.floating-box a:link  {
   text-decoration: none;
   color: #274583;
 }
@@ -396,7 +398,9 @@ div .flex-nav {
 .border-chapter4-one a:visited,
 .border-chapter4-two a:visited,
 .chapter-4-all-news a:visited,
-.nav-head a:visited {
+.nav-head a:visited,
+.mg-tophome a:visited,
+.floating-box a:visited  {
   text-decoration: none;
   color: #3d78ad;
 }
@@ -405,7 +409,9 @@ div .flex-nav {
 .border-chapter4-one a:hover,
 .border-chapter4-two a:hover,
 .chapter-4-all-news a:hover,
-.nav-head a:hover {
+.nav-head a:hover,
+.mg-tophome a:hover,
+.floating-box a:hover  {
   text-decoration: underline;
   color: #274583;
   font-weight: 100;
@@ -415,7 +421,9 @@ div .flex-nav {
 .border-chapter4-one a:active,
 .border-chapter4-two a:active,
 .chapter-4-all-news a:active,
-.nav-head a:active {
+.nav-head a:active,
+.mg-tophome a:active,
+.floating-box a:active {
   text-decoration: underline;
   color: inherit;
 }
