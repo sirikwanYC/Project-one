@@ -440,17 +440,6 @@ div .flex-nav {
 
 .donate a:link,
 .donate a:visited {
-<<<<<<< HEAD
-  background-color: #9ace52;
-  text-align: center;
-  text-decoration: none;
-  border: 0px solid;
-  border-radius: 7%;
-  padding: 5px 5px;
-  margin-top: 105px;
-  font-weight: 900;
-  box-shadow: 1px 1.3px 0.5px #274583;
-=======
   background-color: #96c94e;
   text-align: center;
   text-decoration: none;
@@ -460,17 +449,12 @@ div .flex-nav {
   margin-top: 105px;
   font-weight: 900;
   box-shadow: 1px 1px 0.3px #274583;
->>>>>>> develop
   color: #264480;
 }
 
 .donate a:hover,
 .donate a:active {
-<<<<<<< HEAD
-  background-color: #9ace52;
-=======
   background-color: #96c94e;
->>>>>>> develop
 }
 
 .details {
