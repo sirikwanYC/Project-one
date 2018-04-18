@@ -64,7 +64,9 @@ td {
   width: 200px;
   height: 100px;
   text-align: center;
+  vertical-align: top;
+
 }
 .table{
- margin: auto;
+  margin: auto;
 }
