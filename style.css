@@ -428,21 +428,21 @@ div .flex-nav {
 
 .donate a:link,
 .donate a:visited {
-  background-color: #8bd350;
+  background-color: #96c94e;
   text-align: center;
   text-decoration: none;
   border: 0px solid;
-  border-radius: 5%;
-  padding: 1px 6px;
+  border-radius: 10%;
+  padding: 5px 5px;
   margin-top: 105px;
   font-weight: 900;
-  box-shadow: 1px 1px 1px #274583;
+  box-shadow: 1px 1px 0.3px #274583;
   color: #264480;
 }
 
 .donate a:hover,
 .donate a:active {
-  background-color: #8bd350;
+  background-color: #96c94e;
 }
 
 .details {
@@ -526,7 +526,7 @@ div .flex-nav {
   text-align: center;
   text-decoration: none;
   border: 0px solid;
-  border-radius: 5%;
+  border-radius: 8%;
   font-weight: 900;
   padding: 2px 5px;
   box-shadow: 1px 1px 1px #274583;
