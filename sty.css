@@ -1,4 +1,4 @@
-.body-before div:nth-of-type(2) {
+.body-before div:nth-of-type(3) {
   margin-top: 20px;
 }
 .floating-box {
@@ -6,9 +6,23 @@
   float: left;
   width: 440px;
   height: 210px;
-  background-image: url("img/border.png ")no-repeat left bottom; 
   box-shadow: 1px 1px 2px 1px #efefef;
 }
+
+.bodybox{
+  width:1000px;
+  height: auto;
+}
+
+.student-one{
+  width: 1000px;
+  height: 500px;
+}
+.student-two{
+  width: 1000px;
+  height: 500px;
+}
+
 .mg-left{
   display: flex;
   width: 1000px;
@@ -53,7 +67,6 @@
   background-image: url("img/A1.jpeg");
   position: absolute;
 
-  
 }
 .img-two{
   background-image: url("img/A2.png");
@@ -90,7 +103,6 @@
   background-image: url("img/b4.jpg");
   background-size: cover;
   position: absolute;
- 
 }
 
 .mg-box img{  /*กรอบ*/
@@ -100,7 +112,7 @@
 }
 
 .cloud-img img{  /*ก้อนเมฆ*/
-  width: 1200px;
+  width: 1270px;
   margin-top: 135px;
   margin-left: -1115px;
   position: absolute;
@@ -109,45 +121,54 @@
 .student-img img { /*นักเรียน*/
   width: 960px;
 }
+
 a{
-    color: #284583;
-    
+    color: #284583;  
 }
+
 .student section{
   margin-top: 100px;
-
-
 }
+
 .font-color{
   color: #264480;
 }
+
 .mg-tophome{
   margin-top: 100px;
   margin-left: 160px;
 }
+
 .font-colorblack{
   color: #333;
-
 }
 
-p{
-  color: black;
-}
 .mg-leftdiv p { /*จัดข้อความในกล่อง*/
   margin: 5px 0px;
 }
 
-.font-colorfont{
+.font-colorBrown{
   color: #999;
 }
-.font-sizee{
-  font-size: 20px;
+
+.font-min{
+  font-size:15px;
 }
- .mgright-font{
+
+.mgright-font{
   margin-top: 10px;
   margin-left: 850px;
 }
+
 .margin-topbox{
   margin-top: 80px;
+}
+
+.margin-left{
+  margin-left: -10px;
+}
+
+.font-size-min{
+  font-size: 20px;
 }
 
