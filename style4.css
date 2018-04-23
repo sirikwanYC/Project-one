@@ -334,16 +334,14 @@ hr{
   text-align: center;
   padding: 2px 6px;
   box-shadow: 0px 1px 1px 0px #994466;
-  background: #8bd350;
-  color: #000;
+  background: #8bd350;    
   font-size: 15px;
 }
 .button-onclick2 a{
   border: 1px solid #8bd350;
   border-radius: 10px;
-  
   text-align: center;
-  padding: 5px 45px;
+  padding: 5px 30px;
   box-shadow: 0px 1px 1px 0px #994466;
   background: #8bd350;
   color: #000;
@@ -375,7 +373,7 @@ hr{
   font-size: 14px;
 }
 .text-button{
-  width: 60px;
+  width: 80px;
   height: 20px;
   border:1px solid gray;
 }
@@ -401,7 +399,7 @@ hr{
   float: left;
 }
 .box-buttonleft{
-  width: 200px;
+  width: 217px;
   height: auto;
   float: left;
 }
@@ -411,6 +409,21 @@ hr{
   float: left;
   margin:0pc 10px;
 }
+.box-input{
+  width: 150px;
+  height: auto;
+  float: left;
+  
+}
+.box-buttonrightfix{
+  width: 190px;
+  height: auto;
+  float: left;
+}
+.magin-buttonfix{
+  margin: 7px;
+}
+
 
 
 
