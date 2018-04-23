@@ -341,7 +341,7 @@ hr{
 .button-onclick2 a{
   border: 1px solid #8bd350;
   border-radius: 10px;
-  margin-left: 67px;
+  
   text-align: center;
   padding: 5px 45px;
   box-shadow: 0px 1px 1px 0px #994466;
@@ -380,14 +380,36 @@ hr{
   border:1px solid gray;
 }
 .box-textfirst{
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
+  width: 60px;
+  height: auto;
+  float: left;
 }
 .box-textsecond{
-  width: 465px;
-  height: 100px;
-  border:1px solid black;
+  width: 129px;
+  height: auto;
+  float: left;
+  margin: 0px 30px;
+}
+.textbox{
+  width: 675px;
+  height: auto;
+  margin-top: 150px;
+}
+.box-button{
+  width: 675px;
+  height: auto;  
+  float: left;
+}
+.box-buttonleft{
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.box-buttonright{
+  width: 400px;
+  height: auto;
+  float: left;
+  margin:0pc 10px;
 }
 
 
