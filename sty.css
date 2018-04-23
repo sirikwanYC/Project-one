@@ -111,7 +111,7 @@
 }
 
 a{
-    color: #284583; 
+  color: #284583; 
 }
 
 .font-color{
@@ -128,7 +128,6 @@ a{
 }
 
 p{
-  color: black;
 }
 
 .mg-leftdiv p { /*จัดข้อความในกล่อง*/
