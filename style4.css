@@ -379,6 +379,16 @@ hr{
   height: 20px;
   border:1px solid gray;
 }
+.box-textfirst{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+.box-textsecond{
+  width: 465px;
+  height: 100px;
+  border:1px solid black;
+}
 
 
 
