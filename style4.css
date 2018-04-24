@@ -285,6 +285,7 @@ div .flex-nav {
 }
 .second-rowsetting{
   margin-top: 42px;
+
 }
 .bredcrumb{
   width: 960px;
@@ -294,17 +295,15 @@ div .flex-nav {
   margin-left: 55px;
   margin-top: 42px;
 }
-h3{
-  margin-top:70px; 
-}
 .tbody{
+  margin-top:50px; 
   width: 659px;
   height: 322px;
 }
 .floating-box {
   float: left;
   width: 219px;
-  height: 322px;
+  height: auto;
   
 }
 .pic-set{
@@ -326,18 +325,20 @@ hr{
 .charsetting p{
  margin: 4px;
 }
-.button-onclick a {
+.button-click a {
   border: 1px solid #8bd350;
   border-radius: 10px;
   width: 60px;
   margin-left: 67px;
   text-align: center;
-  padding: 2px 6px;
+  padding: 3px 10px;
   box-shadow: 0px 1px 1px 0px #994466;
   background: #8bd350;    
   font-size: 15px;
+  color: #000;
+  margin-top: 50px;
 }
-.button-onclick2 a{
+.button-click2 a{
   border: 1px solid #8bd350;
   border-radius: 10px;
   text-align: center;
@@ -348,24 +349,19 @@ hr{
   font-size: 15px;
   margin-top:20px;
   }
-.button-onclick2 a:hover,
-.button-onclick2 a:active {
+.button-click2 a:hover,
+.button-click2 a:active {
   filter: grayscale(70%);
 
 }
-.button-onclick a:hover,
-.button-onclick a:active{
+.button-click a:hover,
+.button-click a:active{
   filter: grayscale(70%);
 
 }
 .magin-top50{
   margin-top: 50px
   
-}
-.second-row .button-onclick2:nth-of-type(2){
-  margin-left: 200px;
-  margin-top: -25px;
-  position: absolute;
 }
 .second-row input {
   border: 1px #CCC solid;
@@ -376,6 +372,8 @@ hr{
   width: 80px;
   height: 20px;
   border:1px solid gray;
+  margin-left: -7px;
+
 }
 .box-textfirst{
   width: 60px;
@@ -394,18 +392,19 @@ hr{
   margin-top: 150px;
 }
 .box-button{
+  margin-top:20px; 
   width: 675px;
-  height: auto;  
+  height: 80px;  
   float: left;
 }
-.box-buttonleft{
+.boxbutton-left{
   width: 217px;
   height: auto;
   float: left;
 }
-.box-buttonright{
+.boxbutton-right{
   width: 400px;
-  height: auto;
+  height: 50px;
   float: left;
   margin:0pc 10px;
 }
@@ -415,15 +414,18 @@ hr{
   float: left;
   
 }
-.box-buttonrightfix{
+.boxbutton-right-fix{
   width: 190px;
   height: auto;
   float: left;
 }
-.magin-buttonfix{
+.margin-button-fix{
   margin: 7px;
 }
-.magintop-buttonfix{
+.margin-top-button-fix{
+  margin-top: 0px;
+}
+.top-button{
   margin-top: 20px;
 }
 
