@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti:500');
+.top{
+  padding: 50px 0px 0px 0px;
+  margin-top: 50px;
+}
+.on{
+  padding: 0px;
+  margin: 0px;
+}
+.column-left{
+  float:left;
+  width:55%;
+  height: 100%;
+}
+.column-right{
+  float:right;
+  width:40%;
+  height: 100%;
+}
+h1{
+  font-size: 35px;
+  margin: 0px;
+  color: #383333;
+  font-weight: lighter;
+}
+h2.text{
+  font-size: 28px;  
+  width: 960px;
+	margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h2.blue{
+  font-size: 34px;
+  color: #264480;
+  margin-bottom: 30px;
+}
+h3{
+  font-size: 22px;
+  text-align: center;
+  margin: 18px;
+}
+h4{
+  font-size: 15px;
+  margin: 0px;
+}
+h5{
+  font-size: 15px;
+  margin: 0px;
+}
+h6{
+  font-size: 13px;
+  margin: 0px;
+}
+p{
+  padding-top: 10px;
+  font-size: 17px;
+}
+.font-small{
+  font-size: 14px;
+}
+.photo{
+  width: 373px; 
+  height: 650px;
+  vertical-align: bottom;
+}
+.project{
+  padding:5px 10px ;
+  margin-top: 30px;
+}
+.project-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  width:200px;
+  height: 100%;
+}
+.project-center{
+  float:left;
+  width:530px;
+  height: 100%;
+}
+.project-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:right;
+  width:185px;
+  height: 100%;  
+}
+.text{
+  padding-top: 70px;
+}
+.board-left{
+  float:left;
+  width:20%;
+  height: 100%;
+}
+.board-center{
+  float:left;
+  width:50%;
+  height: 100%;
+}
+.board-right{
+  float:right;
+  width:30%;
+  height: 100%;  
+}
+.block{
+  padding-left:15px;
+}
+.block-1 {
+	width: 160px;
+	float: left;
+}
+.block-2 {
+	width: 160px;
+  padding-left: 50px;
+	float: left;
+}
+.block-3 {
+	width: 160px;
+  padding-left: 50px;
+	float: left;
+}.block-4 {
+  width: 160px;
+  float: left;
+}
+.tallness{
+  height: 100%; /*ความสูง*/
+}
+#column-center{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%; 
+}
+#column2-center{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%; 
+}
+#column3-center{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 67%; 
+}
+.picture{
+  width: 135px; 
+  height: 140px;
+}
+.text-align-center {
+  text-align: center;
+}
+.pic{
+  width: 100%;
+  height: auto;
+}
