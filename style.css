@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Athiti:500');
 
+body {
+  background-color: #5fc5eb;
+}
+
 body,
 .body-before {
 	width: 100%;
