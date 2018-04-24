@@ -15,7 +15,7 @@
 .floating-box {
   float: left;
   /* width: 468px; */
-  height: 210px;
+  height: 211px;
   box-shadow: 1px 1px 2px 1px #efefef;
   /* padding: 10px; */
 }
@@ -26,6 +26,16 @@
 .mg-leftdiv{
   padding: -100px;
 
+}
+.image-student {
+  background-image: url(img/cloud.png);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+
+.image-student img{
+  width: 960px;
+  margin: 0 10%;
 }
 
 .font-size{
@@ -77,15 +87,6 @@
   width: 460px;
   margin-top: -10px;
 }
-
-.cloud-img img{  /*ก้อนเมฆ*/
-  width: 1270px;
-  margin-top: 135px;
-  margin-left: -1115px;
-  position: absolute;
-  z-index: -1;
-  background: url("img/cloud.png") no-repeat center bottom;
-}
 .student-img img { /*นักเรียน*/
   width: 960px;
 }
@@ -115,16 +116,16 @@ a{
   margin: 5px 0px;
 }
 
-.font-colorBrown{
+.font-brown{
   color: #999;
 }
 
 .font-min{
-  font-size:15px;
+  font-size:19px;
 }
 
 .mgright-font{
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 850px;
 }
 
@@ -138,4 +139,15 @@ a{
 .pd-boxxx{
   padding: 10px;
 }
+.margin-box-bar{
+  margin-top: -15px;
+}
+.margin-box-bartwo{
+  margin-top: 15px;
+}
+
+.box-student{
+  margin-top: 100px;
+}
+
 
