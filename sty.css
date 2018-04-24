@@ -14,35 +14,37 @@
 
 .floating-box {
   float: left;
-  width: 440px;
+  /* width: 468px; */
   height: 210px;
   box-shadow: 1px 1px 2px 1px #efefef;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
-.mg-left{
-  display: flex;
-  width: 1000px;
-}
 .mg-leftbox{
-  margin: 20px 10px 15px;
+  margin: 20px 10px 30px;
 }
 .mg-leftdiv{
-  margin-left: 30px;
+  padding: -100px;
+
 }
-.box-one{
-  height: 450px;
-  width: 1000px;
-}
+
 .font-size{
   font-size: 30px;
 }
-.padding-box{
-  padding: 30px;
-}
-.mg-box{
-  margin-left: 100px;
 
+.card-body{
+  padding:20px;
+}
+
+.card-image{
+  width: 120px; 
+  height: 120px; 
+  float: left;
+}
+
+.mg-box{
+  float: left;  
+  width: 300px;
 }
 .background-color-box{
   background-color: #e4f5fd;
@@ -52,60 +54,28 @@
   width: 100px;
   height: 100px;
 }
+.img-wight{
+  width: 100px;
+  height: 100px;
+}
 
 .clr-pic{
   border-radius: 50%;
 }
-.img-mg-left-top{
-  margin-left: 10px;
-  margin-top: 10px;
-}
-.img-one{
-  background-image: url("img/A1.jpeg");
+
+.position-absolute{
   position: absolute;
 
 }
-.img-two{
-  background-image: url("img/A2.png");
-  position: absolute;
+.background-cover{
+  background-size: cover;
+
 }
 
-.img-three{
-  background-image: url("img/A3.jpg");
-  position: absolute;
-}
-.img-four{
-  background-image: url("img/A4.jpeg");
-  position: absolute;
-} 
-.img-oneb1{
-  background-image: url("img/b1.jpg");
-  background-size: cover;
-  position: absolute;
-  
-}
-.img-oneb2{
-  background-image: url("img/b2.jpg");
-  background-size: cover;
-  position: absolute;
- 
-}
-.img-oneb3{
-  background-image: url("img/b3.jpg");
-  background-size: cover;
-  position: absolute;
- 
-}
-.img-oneb4{
-  background-image: url("img/b4.jpg");
-  background-size: cover;
-  position: absolute;
-}
-
-.mg-box img{  /*กรอบ*/
-  margin-left: -110px;
+.img-footer-card{  /*กรอบ*/
+  /* margin-left: -10px; */
   width: 460px;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .cloud-img img{  /*ก้อนเมฆ*/
@@ -114,6 +84,7 @@
   margin-left: -1115px;
   position: absolute;
   z-index: -1;
+  background: url("img/cloud.png") no-repeat center bottom;
 }
 .student-img img { /*นักเรียน*/
   width: 960px;
@@ -164,5 +135,7 @@ a{
 .font-size-min{
   font-size: 20px;
 }
-
+.pd-boxxx{
+  padding: 10px;
+}
 
